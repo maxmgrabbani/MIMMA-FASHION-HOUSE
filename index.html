@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content='width=device-width, initial-scale=1' name='viewport' />
+  <title>MIMMA FASHION HOUSE</title>
+
+  <!-- বাংলা ফন্ট -->
+  <link href='https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&amp;display=swap' rel='stylesheet' />
+  <link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' rel='stylesheet' />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Hind Siliguri', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f2f1, #b2ebf2, #a5d6a7);
+      min-height: 100vh;
+      background-attachment: fixed;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1e3a8a, #4c1d95, #6b21a8);
+      color: yellow;
+      padding: 18px 15px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .banner {
+      background: linear-gradient(135deg, #1e3a8a, #6b21a8, #4c1d95);
+      color: white;
+      padding: 15px 15px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    .banner a {
+      color: white;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .card {
+      background: #f5f5f5;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      padding: 10px 15px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+
+    .main-content {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    @media screen and (max-width:768px) {
+      .banner h1 {
+        font-size: 20px;
+      }
+
+      .header h2 {
+        font-size: 18px;
+      }
+    }
+
+    /* ভাসমান অফার বাটন */
+    .floating-offer {
+      position: fixed;
+      left: 0;
+      top: 40%;
+      transform: translateY(-50%);
+      background: #FF6200;
+      color: white;
+      padding: 14px 10px;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 4px 0 15px rgba(0, 0, 0, 0.25);
+      z-index: 99999;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .floating-offer:hover {
+      background: #e55a00;
+      transform: translateY(-50%) scale(1.08);
+    }
+
+    @media screen and (max-width: 768px) {
+      .floating-offer {
+        font-size: 13px;
+        padding: 11px 7px;
+      }
+    }
+
+    /* ফুটার */
+    .footer {
+      background: linear-gradient(135deg, #1e3a8a, #4c1d95, #6b21a8);
+      color: white;
+      padding: 45px 15px 30px;
+      text-align: center;
+      font-family: 'Hind Siliguri', Arial, sans-serif;
+      margin-top: 40px;
+    }
+
+    .footer .company-name {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .footer .info {
+      font-size: 15.5px;
+      line-height: 1.8;
+      margin-bottom: 25px;
+    }
+
+    .footer .social-icons a {
+      color: white;
+      font-size: 28px;
+      margin: 0 18px;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .footer .social-icons a:hover {
+      color: #ffd700;
+      transform: scale(1.25);
+    }
+
+    .footer .copyright {
+      font-size: 13px;
+      opacity: 0.9;
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER SECTION -->
+  <div class='header'>
+    <h2>MIMMA FASHION HOUSE</h2>
+  </div>
+
+  <!-- BANNER SECTION -->
+  <div class='banner'>
+    <h1>রেডিমেড পোশাকের বিশ্বস্ত প্রতিষ্ঠান</h1>
+    <p>প্রিয়জনকে সাথে নিয়ে আজই চলে আসুন</p>
+    <a href='https://wa.me/880XXXXXXXXXX' target='_blank'>হোয়াটসঅ্যাপ করুন</a>
+  </div>
+
+  <!-- ভাসমান ১০% ছাড়ের বাটন -->
+  <a class='floating-offer' href='https://wa.me/880XXXXXXXXXX' target='_blank'>
+    ১০% ছাড়
+  </a>
+
+  <!-- MAIN CONTENT (ব্লগারের উইজেটের পরিবর্তে স্ট্যাটিক HTML) -->
+  <div class='main-content'>
+    <div class="section-title">আমাদের পন্য সমূহ</div>
+
+    <div class="card">সালোয়ার কামিজ</div>
+    <div class="card">শাড়ি</div>
+    <div class="card">ব্লাউজ</div>
+    <div class="card">লেহেঙ্গা</div>
+    <div class="card">হিজাব</div>
+    <div class="card">বোরকা</div>
+    <div class="card">পাঞ্জাবী</div>
+    <div class="card">লুঙ্গি</div>
+    <div class="card">শার্ট</div>
+    <div class="card">প্যান্ট</div>
+    <div class="card">পাজামা</div>
+    <div class="card">ফতুয়া</div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class='footer'>
+    <div class='company-name'>MIMMA FASHION HOUSE</div>
+
+    <div class='info'>
+      📍 বাসস্ট্যান্ড, কালাই<br />
+      📞 +88017********<br />
+      📧 info@mimmafashionhouse.com
+    </div>
+
+    <div class='social-icons'>
+      <a href='https://facebook.com/' target='_blank' title='Facebook'><i class='fab fa-facebook-f'></i></a>
+      <a href='https://tiktok.com/@' target='_blank' title='TikTok'><i class='fab fa-tiktok'></i></a>
+      <a href='https://youtube.com/' target='_blank' title='YouTube'><i class='fab fa-youtube'></i></a>
+    </div>
+
+    <div class='copyright'>
+      © 2026 MIMMA FASION HOUSE • All Rights Reserved
+    </div>
+  </footer>
+
+</body>
+
+</html>
